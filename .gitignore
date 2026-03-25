@@ -1,0 +1,77 @@
+# ==============================
+
+# STM32CubeMX + CMake .gitignore
+
+# ==============================
+
+# ---- Build directories ----
+
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# ---- Compiled objects ----
+
+*.o
+*.obj
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.a
+*.lib
+
+# ---- Debug / Flash files ----
+
+*.lst
+*.log
+
+# ---- STM32CubeIDE ----
+
+.project
+.cproject
+.settings/
+
+# ---- VSCode ----
+
+.vscode/
+
+# ---- CLion ----
+
+.idea/
+
+# ---- Keil ----
+
+*.uvprojx
+*.uvoptx
+*.uvguix.*
+
+# ---- IAR ----
+
+*.ewp
+*.eww
+*.ewd
+Debug/
+Release/
+
+# ---- OS generated files ----
+
+.DS_Store
+Thumbs.db
+
+# ---- Temporary files ----
+
+*.tmp
+*.bak
+*~
+
+# ---- Python (if using scripts) ----
+
+**pycache**/
+*.pyc

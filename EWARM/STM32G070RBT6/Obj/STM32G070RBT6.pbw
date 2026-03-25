@@ -1,0 +1,296 @@
+[
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "50",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "64",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "114",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "155",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "189",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\main.c"
+    },
+    "name": "Error_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_MspInit(void)",
+    "location": {
+      "column": "6",
+      "line": "62",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_hal_msp.c"
+    },
+    "name": "HAL_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "69",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_it.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "84",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_it.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "99",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_it.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "112",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_it.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\stm32g0xx_it.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g0xx.c@3891@macro@HSE_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSE_VALUE",
+    "location": {
+      "column": "9",
+      "line": "80",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "HSE_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g0xx.c@4026@macro@HSI_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSI_VALUE",
+    "location": {
+      "column": "11",
+      "line": "84",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "HSI_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g0xx.c@4157@macro@LSI_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LSI_VALUE",
+    "location": {
+      "column": "10",
+      "line": "88",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "LSI_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32g0xx.c@4269@macro@LSE_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LSE_VALUE",
+    "location": {
+      "column": "11",
+      "line": "92",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "LSE_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "12",
+      "line": "161",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "SystemCoreClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@AHBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "AHBPrescTable",
+    "location": {
+      "column": "18",
+      "line": "163",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "AHBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@APBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "APBPrescTable",
+    "location": {
+      "column": "18",
+      "line": "164",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "APBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "187",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "235",
+      "path": "C:\\Users\\caipei\\Desktop\\VSCode\\STM32G070RBT6Demo2\\Core\\Src\\system_stm32g0xx.c"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "project_file",
+    "scope": null
+  }
+]

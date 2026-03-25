@@ -1,0 +1,23 @@
+--cpu Cortex-M0+
+"stm32g070rbt6\startup_stm32g070xx.o"
+"stm32g070rbt6\main.o"
+"stm32g070rbt6\stm32g0xx_it.o"
+"stm32g070rbt6\stm32g0xx_hal_msp.o"
+"stm32g070rbt6\stm32g0xx_hal_rcc.o"
+"stm32g070rbt6\stm32g0xx_hal_rcc_ex.o"
+"stm32g070rbt6\stm32g0xx_ll_rcc.o"
+"stm32g070rbt6\stm32g0xx_hal_flash.o"
+"stm32g070rbt6\stm32g0xx_hal_flash_ex.o"
+"stm32g070rbt6\stm32g0xx_hal_gpio.o"
+"stm32g070rbt6\stm32g0xx_hal_dma.o"
+"stm32g070rbt6\stm32g0xx_hal_dma_ex.o"
+"stm32g070rbt6\stm32g0xx_hal_pwr.o"
+"stm32g070rbt6\stm32g0xx_hal_pwr_ex.o"
+"stm32g070rbt6\stm32g0xx_hal_cortex.o"
+"stm32g070rbt6\stm32g0xx_hal.o"
+"stm32g070rbt6\stm32g0xx_hal_exti.o"
+"stm32g070rbt6\system_stm32g0xx.o"
+--strict --scatter "STM32G070RBT6\STM32G070RBT6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32G070RBT6.map" -o STM32G070RBT6\STM32G070RBT6.axf
