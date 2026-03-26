@@ -3,8 +3,6 @@
 #include "main.h"
 
 
-
-
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 
