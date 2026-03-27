@@ -18,6 +18,8 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "stm32g0xx_hal.h"
+#include "stm32g0xx_hal_gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -98,11 +100,21 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    
-    HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
-    HAL_Delay(1000);
-    HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
-    HAL_Delay(1000);
+    //LED1闪烁
+    // HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_SET);
+    // HAL_Delay(1000);
+    // HAL_GPIO_WritePin(LED1_GPIO_Port, LED1_Pin, GPIO_PIN_RESET);
+    // HAL_Delay(1000);
+    //按键KEY1按下点亮LED1
+    if(HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET) {
+      HAL_Delay(20);  //单位毫秒
+      while(HAL_GPIO_ReadPin(KEY1_GPIO_Port, KEY1_Pin) == GPIO_PIN_RESET) {
+        HAL_GPIO_TogglePin(LED1_GPIO_Port, LED1_Pin);
+        HAL_Delay(1000); 
+      }
+
+    }
+    //GPIO_PinState     HAL_GPIO_ReadPin(GPIO_TypeDef const *GPIOx, uint16_t GPIO_Pin);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
